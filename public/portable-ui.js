@@ -1,0 +1,1 @@
+'use strict';const exitForm=document.createElement('form');exitForm.action='/logout';exitForm.method='post';exitForm.innerHTML='<button class=quiet>Sign out of booth</button>';document.querySelector('#devView .section-heading').append(exitForm);
